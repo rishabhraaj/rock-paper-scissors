@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style/rock-paper-scissors.css">
+
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <!-- FONT -->
+
+</head>
+<body>
+    <!-- BODY -->
+    <p class="title">
+        Rock Paper Scissors
+    </p>
+    <!-- Rock Button -->
+    <button onClick="
+        playGame('Rock')
+    " class="move-button">
+    <img src="images/Rock-emoji.png" class="move-icon">
+    </button>
+
+    <!-- Paper Button -->
+    <button onClick="
+        playGame('Paper')
+    " class="move-button">
+    <img src="images/Paper-emoji.png" class="move-icon">
+    </button>
+
+    <!-- Scissors -->
+    <button onClick="
+        playGame('Scissors')
+    " class="move-button">
+    <img src="images/Scissors-emoji.png" class="move-icon">
+    </button>
+
+    <!-- Result Display -->
+    <p class="js-result display-result">  
+        
+    </p>
+
+     <!-- Moves Display -->
+     <p class="js-moves">
+       
+    </p>
+
+    
+
+
+   
+
+    <!-- Score Display -->
+    <p class="js-score">
+
+    </p>
+
+    <!-- Reset Score button -->
+    <button onClick="
+        score.wins=0;
+        score.losses=0;
+        score.tie=0;
+        updateScoreElement();
+    " class="reset-score-button">
+        Reset Score
+    </button>
+
+
+    <!-- SCRIPT -->
+    <script src="script/rock-paper-scissors.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    font-family:Roboto;
+    margin-left:30px;
+    
+}
+
+
+
+
+.title{
+    font-size:60px;
+    font-weight:bold;
+    margin-top:5px; 
+    margin-bottom:20px;
+}
+
+
+
+.move-icon{
+    height:60px;
+}
+
+.move-button{
+    background-color:transparent;
+    border: 2px solid white;
+    height:150px;
+    width:150px;
+    border-radius:375px;
+    margin-right:30px;
+}
+
+.display-result{
+    font-weight:bold;
+    font-size:25px;
+    
+}
+
+
+.reset-score-button{
+    background-color:white;
+    border:none;
+    padding:12px 20px;
+    font-weight:400;
+    border-radius:3px;
+    cursor:pointer;
+    transition: background-color 0.2s, color 0.2s;
+    margin-top:20px;
+}
+
+.reset-score-button:hover{
+    background-color:rgb(54, 53, 53);
+    color:white;
+    
+}
+@media (max-width:598px){
+    .title{
+        font-size:40px;
+        font-weight:500;
+    }
+
+    .move-icon{
+        height:60px;
+    }
+
+    .move-button{
+        height:100px;
+        width:100px;
+    }
+
+   
+   
+}
